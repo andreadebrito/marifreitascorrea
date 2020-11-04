@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 { 
+  font-weight: 400; 
+  font-size: 25px;
+  font-weight: 800; 
+  letter-spacing: 5px;
+  
+}
+/* ---------------- FORMATAÇÕES GERIAS ---------*/
+body, html {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(83, 83, 83);
+	height: 100%;
+	letter-spacing: 2px;
+	font-weight: 800; 
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	
+}
+a:hover {
+	text-decoration: none; 
+	color: orange
+}
+.flecha {
+	font-size: 50px;
+	text-align: center;
+}
+
+.flechaSobre, a {
+	color: rgb(83, 83, 83);
+	
+}	
+/*----------BARRA DE NAVEGAÇÃO------------------*/
+nav.navbar-transparente {
+	padding: 5px 0;
+	background: rgba(0,0,0,0.7);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-weight: 300; 
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color:orange;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255,255,255,.5);
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin:12px 15px;
+}
+
+/* ---------------- EFEITO PARALLAX ---------*/
+.caixa1, .caixa2, .caixa3, .caixa4 {
+	height: 100%;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	background-attachment: fixed;
+	position: relative;
+}
+.caixa1 {
+	background-image: url(../_imagens/kung-fu.jpg);
+}
+.caixa2 {
+	background-image: url(../_imagens/mari2.jpg);
+}
+.caixa3 {
+	background-image: url(../_imagens/olimp.jpg);
+}
+
+/* ---------------- FORMATAÇÃO CONTEÚDO---------*/
+.conteudo {
+	color: #777;
+	background-color: white;
+	padding: 50px 80px; 
+	font-size: 16px;
+}
+
+.posicaoCaixaCapa {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+.posicaoCaixa {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	text-align: justify;
+}
+
+.conteudoInternoCaixa {
+	color: #fff;
+	background-color: #111;
+	opacity: 0.9;
+	padding: 18px; 
+}
+/*----------SOBRE-----------------*/
+.textoSobre {
+	text-align: justify;
+}
+.mari{
+width: 400px;
+height: 600px;
+}
+
+
+/*----------METODOLOGIA------------------*/
+.listaMetodologias {
+	text-align: start;
+}
+
+.planoAtendimento {
+	text-align: justify;
+}
+
+/*----------SERVIÇOS------------------*/
+.icon {
+	font-size: 60px;
+}
+
+/*----------INDIVIDUAL------------------*/
+.individual {
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*----------SERVIÇOS------------------*/
+.quote {
+	text-align: center;
+	font-size: 30px;
+}
+
+/*----------FOOTER------------------*/
+.footer {
+	color: rgb(0, 0, 0);
+	padding: 10px 0 5px 0; 
+	font-weight: 900;
+}
+
+.creditos {
+	margin:0;
+	font-size: 14px;
+	
+}
